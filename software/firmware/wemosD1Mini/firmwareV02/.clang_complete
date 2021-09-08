@@ -1,0 +1,64 @@
+-ID:/ELECTRÓNICA GAMBINO/01 CLIENTES/58 JUAN LESCANO/02 SOFTWARE/00 FIRMWARE/Firmware_V2/Firmware V2 ESP8266/Firmware V2/include
+-ID:/ELECTRÓNICA GAMBINO/01 CLIENTES/58 JUAN LESCANO/02 SOFTWARE/00 FIRMWARE/Firmware_V2/Firmware V2 ESP8266/Firmware V2/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM
+-ID:/ELECTRÓNICA GAMBINO/01 CLIENTES/58 JUAN LESCANO/02 SOFTWARE/00 FIRMWARE/Firmware_V2/Firmware V2 ESP8266/Firmware V2/.pio/libdeps/d1/WiFiManager
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src
+-ID:/ELECTRÓNICA GAMBINO/01 CLIENTES/58 JUAN LESCANO/02 SOFTWARE/00 FIRMWARE/Firmware_V2/Firmware V2 ESP8266/Firmware V2/.pio/libdeps/d1/Adafruit SSD1306
+-ID:/ELECTRÓNICA GAMBINO/01 CLIENTES/58 JUAN LESCANO/02 SOFTWARE/00 FIRMWARE/Firmware_V2/Firmware V2 ESP8266/Firmware V2/.pio/libdeps/d1/Adafruit GFX Library
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/SPI
+-ID:/ELECTRÓNICA GAMBINO/01 CLIENTES/58 JUAN LESCANO/02 SOFTWARE/00 FIRMWARE/Firmware_V2/Firmware V2 ESP8266/Firmware V2/.pio/libdeps/d1/PubSubClient/src
+-ID:/ELECTRÓNICA GAMBINO/01 CLIENTES/58 JUAN LESCANO/02 SOFTWARE/00 FIRMWARE/Firmware_V2/Firmware V2 ESP8266/Firmware V2/.pio/libdeps/d1/RTClib
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/Wire
+-IC:/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include
+-IC:/.platformio/packages/framework-arduinoespressif8266/tools/sdk/libc/xtensa-lx106-elf/include
+-IC:/.platformio/packages/framework-arduinoespressif8266/cores/esp8266
+-IC:/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip2/include
+-IC:/.platformio/packages/framework-arduinoespressif8266/variants/d1
+-ID:/ELECTRÓNICA GAMBINO/01 CLIENTES/58 JUAN LESCANO/02 SOFTWARE/00 FIRMWARE/Firmware_V2/Firmware V2 ESP8266/Firmware V2/.pio/libdeps/d1/Adafruit BusIO
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src
+-ID:/ELECTRÓNICA GAMBINO/01 CLIENTES/58 JUAN LESCANO/02 SOFTWARE/00 FIRMWARE/Firmware_V2/Firmware V2 ESP8266/Firmware V2/.pio/libdeps/d1/TinyWireM
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266AVRISP/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266LLMNR
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266NetBIOS
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SSDP
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SdFat/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFiMesh/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/GDBStub/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/Hash/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/LittleFS/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/SDFS/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src
+-IC:/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src
+-IC:/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2
+-IC:/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include/c++/4.8.2/xtensa-lx106-elf
+-IC:/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include
+-IC:/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed
+-IC:/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include
+-DPLATFORMIO=50101
+-DESP8266
+-DARDUINO_ARCH_ESP8266
+-DARDUINO_ESP8266_WEMOS_D1R1
+-DF_CPU=80000000L
+-D__ets__
+-DICACHE_FLASH
+-DARDUINO=10805
+-DARDUINO_BOARD="PLATFORMIO_D1"
+-DFLASHMODE_DIO
+-DLWIP_OPEN_SRC
+-DNONOSDK22x_190703=1
+-DTCP_MSS=536
+-DLWIP_FEATURES=1
+-DLWIP_IPV6=0
+-DVTABLES_IN_FLASH
