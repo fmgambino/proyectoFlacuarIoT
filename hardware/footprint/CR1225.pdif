@@ -1,0 +1,238 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "CR1225"
+      (family "ANA")
+      (package "BHX11225PC")
+      (description "<b>LI_BATTERY</b>_CR1225")
+      (attribute "PKG_TYPE" "BHX11225PC")
+      (gate
+        (swap 1)
+        (symbol "1V22")
+        (pin "+" V1 (type PS))
+        (pin "+_1" V2 (type PS))
+        (pin "-" GND (type PS))
+      )
+    )
+    (symbol "1V22"
+      (units THOU)
+      (graphic
+        (stroke 16.0)
+        (path (pt -75.0 25.0) (pt -75.0 0.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -100.0 0.0) (pt -75.0 0.0))
+      )
+      (graphic
+        (stroke 16.0)
+        (path (pt -75.0 0.0) (pt -75.0 -25.0))
+      )
+      (graphic
+        (stroke 16.0)
+        (path (pt -25.0 100.0) (pt -25.0 0.0))
+      )
+      (graphic
+        (stroke 6.0)
+        (path (pt -25.0 0.0) (pt 100.0 0.0))
+      )
+      (graphic
+        (stroke 16.0)
+        (path (pt -25.0 0.0) (pt -25.0 -100.0))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L100") (pt 200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -139.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L0") (pt 100.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L100") (pt -200.0 0.0) (rot 0) (mir 0) (visible true))
+        (name (pt 139.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+      )
+    )
+    (symbol "PIN_R180_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -100.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L0"
+      (units THOU)
+    )
+    (symbol "PIN_R0_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 100.0 0.0))
+      )
+    )
+    (package "BHX11225PC"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -314.96 -335.63) (pt 314.96 -335.63))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -299.21 287.4) (pt 299.21 287.4))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -299.21 31.5) (pt -299.21 -27.56))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -299.21 -27.56) (pt -299.21 -30.31))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 299.21 31.5) (pt 299.21 -30.31))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -326.77 31.5) (pt -326.77 -30.31))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 322.83 31.5) (pt 322.83 -30.31))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -326.77 31.5) (pt -299.21 31.5))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 322.83 31.5) (pt 299.21 31.5))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 299.21 -31.5) (pt 322.83 -31.5))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -299.21 31.5) (pt -299.21 287.4))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 299.21 31.5) (pt 299.21 287.4))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -157.48 98.43) (pt -157.48 -98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -157.48 -98.43) (pt -86.61 -98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -86.61 -98.43) (pt -86.61 98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -86.61 98.43) (pt -157.48 98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 157.48 98.43) (pt 86.61 98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 86.61 98.43) (pt 86.61 -98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 86.61 -98.43) (pt 157.48 -98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 157.48 -98.43) (pt 157.48 98.43))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -314.96 -334.65) (pt -314.96 -335.63))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -314.96 -335.63) (pt -314.96 -334.65))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -314.96 -334.65) (pt -314.96 -212.6))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -314.96 -212.6) (pt -299.21 -196.85))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -299.21 -196.85) (pt -299.21 -27.56))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 314.96 -335.63) (pt 314.96 -212.6))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 314.96 -212.6) (pt 299.21 -196.85))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 299.21 -196.85) (pt 299.21 -31.5))
+        )
+        (graphic
+          (stroke 5.0)
+          (fill NONE)
+          (circle (pt -196.85 59.06) (pt -39.37 59.06))
+        )
+        (graphic
+          (stroke 5.0)
+          (fill NONE)
+          (circle (pt 39.37 59.06) (pt 196.85 59.06))
+        )
+        (graphic
+          (stroke 5.0)
+          (fill NONE)
+          (circle (pt -246.06 -19.69) (pt 246.06 -19.69))
+        )
+      )
+      (leg GND (pt 0 0) (padstack 1))
+      (leg V1 (pt 312.99 0) (padstack 2))
+      (leg V2 (pt -312.99 0) (padstack 3))
+      (padstack 1
+        (pad (layer TCOP) (rectf 196.85 196.85 0 0.0 0))
+        (pad (layer TRES) (rectf 196.85 196.85 0 0.0 0))
+        (pad (layer TPST) (rectf 196.85 196.85 0 0.0 0))
+      )
+      (padstack 2
+        (hole 78)
+        (plated true)
+        (pad (layer TCOP) (square 118.11))
+        (pad (layer INNER) (square 118.11))
+        (pad (layer BCOP) (square 118.11))
+        (pad (layer TRES) (square 118.11))
+        (pad (layer BRES) (square 118.11))
+      )
+      (padstack 3
+        (hole 78)
+        (plated true)
+        (pad (layer TCOP) (square 118.11))
+        (pad (layer INNER) (square 118.11))
+        (pad (layer BCOP) (square 118.11))
+        (pad (layer TRES) (square 118.11))
+        (pad (layer BRES) (square 118.11))
+      )
+    )
+  )
+)
