@@ -14,4 +14,4 @@ VCC
 IO1			TX				TX
 IO3			RX				RX
 GND
-VCC
+VCC			.				-
