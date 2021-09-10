@@ -1,17 +1,17 @@
 GPIO PIN	PINES  			FUNCION PIN
 GND
-			D18	SCK
-			D19	MISO
-			D23	MOSI
-			D02	SLAVE
+			D18				SCK
+			D19				MISO
+			D23				MOSI
+			D02				SLAVE
 VCC
 
 GND
-			D21	SDA
-			D22	SCL
+			D21				SDA
+			D22				SCL
 VCC
 
-IO1			TX
-IO3			RX
+IO1			TX				TX
+IO3			RX				RX
 GND
 VCC
