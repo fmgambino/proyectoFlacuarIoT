@@ -224,7 +224,7 @@ bool get_topic(int length){
   Serial.println("\nIniciando conexión segura para obtener tópico raíz...");
 
   if (!client2.connect(server, 443)) {
-    Serial.println("Falló conexión!");
+    Serial.println("Error... Falló conexión!");
   }else {
     Serial.println("Conectados a servidor para obtener tópico - ok");
     // Make a HTTP request:
@@ -241,7 +241,7 @@ bool get_topic(int length){
     while (client2.connected()) {
       String line = client2.readStringUntil('\n');
       if (line == "\r") {
-        Serial.println("Headers recibidos - ok");
+        Serial.println("Headers recibidos - ok"); 
         break;
       }
     }
