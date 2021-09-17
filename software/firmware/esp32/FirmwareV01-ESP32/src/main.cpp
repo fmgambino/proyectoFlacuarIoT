@@ -30,9 +30,9 @@ const int resolution = 8; //Resolution 8, 10, 12, 15
 //estos datos deben estar configurador también en las constantes de tu panel
 // NO USES ESTOS DATOS PON LOS TUYOS!!!!
 const String serial_number = "191010";
-const String insert_password = "111";
+const String insert_password = "285289";
 const String get_data_password = "420285";
-const char*  server = "https://mundodato.com/";
+const char*  server = "flacuariot.com";
 
 //MQTT
 const char *mqtt_server = "ioticos.org";
