@@ -74,6 +74,7 @@ char device_topic_publish [40];
 char msg[25];
 float temp = 0;
 int hum = 0;
+float ph =0;
 long milliseconds = 0;
 byte sw1 = 0;
 byte sw2 = 0;
@@ -106,7 +107,7 @@ void setup() {
 
   while(!topic_obteined){
     topic_obteined = get_topic(expected_topic_length);
-    delay(3000);
+    delay(5000);
   }
 
 
@@ -132,7 +133,7 @@ void loop() {
   }
 
   //si estamos conectados a mqtt enviamos mensajes
-  if (millis() - milliseconds > 3000){
+  if (millis() - milliseconds > 5000){
     milliseconds = millis();
 
 
@@ -187,7 +188,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   }
 
   if(command=="slider"){
-    Serial.println("Sw1 pasa a estado " + incoming);
+    Serial.println("Slider pasa a estado " + incoming);
     slider = incoming.toInt();
     ledcWrite(ledChannel,slider);
   }
