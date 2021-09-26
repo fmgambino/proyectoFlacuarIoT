@@ -66,7 +66,7 @@ const options = {
 }
 
 // WebSocket connect url
-const WebSocket_URL = 'wss://ioticos.org:8094/mqtt';
+const WebSocket_URL = 'wss://35.247.205.133:8083/mqtt'; //'wss://ioticos.org:8094/mqtt';
 const client = mqtt.connect(WebSocket_URL, options)
 
 var device_topic = '<?php echo ROOT_TOPIC ."/". $_SESSION['selected_topic']."/" ?>';

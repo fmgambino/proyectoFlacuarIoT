@@ -49,7 +49,7 @@ type='text/css'>
           <center><a href="https://flacuariot.com">
           <img src="https://flacuariot.com/wp-content/uploads/2021/05/03-Logo-FlacuarIoT-e1621499415936.jpg"
           width="350" height="100"
-          alt="texto alternativo de la imagen" /></a></center>
+          alt="flacuariot, tucum, ingeneria, proyecto final, utn" /></a></center>
 
           <div class="mdl-card__supporting-text color--dark-gray">
                   <form class="" action="<?php echo base_url('login/dologin')?>" method="post">

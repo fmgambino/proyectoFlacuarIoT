@@ -35,8 +35,8 @@ const String get_data_password = "420285";
 const char*  server = "flacuariot.com";
 
 //MQTT
-const char *mqtt_server = "ioticos.org";
-const int mqtt_port = 8883;
+const char *mqtt_server = "ye9599b0.us-east-1.emqx.cloud";
+const int mqtt_port = 8884;
 
 //no completar, el dispositivo se encargará de averiguar qué usuario y qué contraseña mqtt debe usar.
 char mqtt_user[20] = "";
