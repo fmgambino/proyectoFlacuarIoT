@@ -117,7 +117,7 @@ char* estado;
 // setting PWM properties
 const int freq = 5000;
 const int ledChannel = 0;
-const int resolution = 8; //Resolution 8, 10, 12, 15
+const int resolution = 8; //Resolution 8, 10, 12, 15 
 
 const int tempchannel = 0;
 
