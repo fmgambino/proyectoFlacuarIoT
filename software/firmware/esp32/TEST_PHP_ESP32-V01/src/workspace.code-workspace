@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\.."
+		},
+		{
+			"name": "TEST_PHP_ESP32-V01",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
