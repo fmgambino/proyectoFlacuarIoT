@@ -17,3 +17,6 @@ const WebSocket_URL = 'wss://broker.emqx.io:8084/mqtt';
 El tópico es: v3FP3BCFf6NbVK0/UTY4RkfxYJ
 El user MQTT es: flacuariot
 La pass MQTT es: pepito0381
+
+//CALCULO DE LA RECTA PARA SENSOR PH METHER
+https://scidle.com/es/como-usar-un-sensor-de-ph-con-arduino/
