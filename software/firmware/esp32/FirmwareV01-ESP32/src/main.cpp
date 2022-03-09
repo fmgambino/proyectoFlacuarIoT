@@ -123,13 +123,13 @@ const int tempchannel = 0;
 
 //estos datos deben estar configurador también en las constantes de tu panel
 // NO USES ESTOS DATOS PON LOS TUYOS!!!!
-const String serial_number = "191010";
+const String serial_number = "797171";
 const String insert_password = "285289";
 const String get_data_password = "420285";
 const char*  server = "flacuariot.com";
 
 //MQTT
-const char *mqtt_server = "ioticos.org";
+const char *mqtt_server = "broker.emqx.io";
 const int mqtt_port = 8883;
 
 //no completar, el dispositivo se encargará de averiguar qué usuario y qué contraseña mqtt debe usar.
@@ -356,7 +356,7 @@ void reconnect() {
 	while (!mqttclient.connected()) {
 		Serial.print("Intentando conexión MQTT SSL");
 		// we create client id
-		String clientId = "esp32_ia_";
+		String clientId = "client_id_57626";
 		clientId += String(random(0xffff), HEX);
 		// Trying SSL MQTT connection
 		if (mqttclient.connect(clientId.c_str(),mqtt_user,mqtt_pass)) {
@@ -366,7 +366,7 @@ void reconnect() {
 			mqttclient.subscribe(device_topic_subscribe);
 
 		} else {
-			Serial.print("falló :( con error -> ");
+			Serial.print(" falló :( con error -> ");
 			Serial.print(mqttclient.state());
 			Serial.println(" Intentamos de nuevo en 5 segundos");
 

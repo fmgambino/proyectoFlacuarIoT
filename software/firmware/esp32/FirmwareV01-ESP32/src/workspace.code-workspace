@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\.."
+		},
+		{
+			"name": "FirmwareV01-ESP32",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
